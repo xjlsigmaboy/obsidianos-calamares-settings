@@ -1,0 +1,49 @@
+---
+componentName:  default
+
+welcomeStyleCalamares:   false
+
+welcomeExpandingLogo:   true
+
+windowExpanding:    noexpand
+windowSize: 1280px,720px
+windowPlacement: center
+
+# sidebar: qml,top
+sidebar: none
+navigation: widget
+
+
+strings:
+    productName:         ObsidianOS
+    shortProductName:    ObsidianOS
+    version:             23.08.2024
+    shortVersion:        23.08.2024
+    versionedName:       ObsidianOS
+    shortVersionedName:  ObsidianOS
+    bootloaderEntryName: ObsidianOS
+    productUrl:          https://github.com/xjlsigmaboy/ObsidianOS
+    supportUrl:          https://github.com/xjlsigmaboy/ObsidianOS
+    releaseNotesUrl:     https://github.com/xjlsigmaboy/ObsidianOS
+
+
+uploadServer :
+    type :    "fiche"
+    url :     "http://termbin.com:9999"
+    sizeLimit : -1
+    
+images:
+    productLogo:         "logo.png"
+    productIcon:         "logo.png"
+    productWelcome:      "Welcome.png"
+
+slideshow:               "show.qml"
+    
+slideshowAPI: 1
+
+style:
+   SidebarBackground:    "#282c34"
+   SidebarText:          "#FFFFFF"
+   SidebarTextSelect:    "#cc0000"
+   SidebarTextHighlight: "#000000"
+
